@@ -11,7 +11,7 @@ import { launchCamera,launchImageLibrary,CameraOptions,ImagePickerResponse,Image
 
 
 export default function Main() : JSX.Element{
-    //화면갱신에 영향을 주는 아주 특별한 변수 : state
+    //화면갱신에 영향을 주는 아주 특별한 변수 : statee
     //여긴 일반클래스가 아니라 functional클래스이다. -> functional클래스 단점 : Component를 상속받지 않음..ㅠ
     //그래서 state변수를 만들수있는 함수 : useState()로 써야한다!
 
